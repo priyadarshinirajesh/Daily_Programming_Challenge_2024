@@ -24,17 +24,22 @@ def group_anagrams(arr):
 
     return result
 
+#test case 1
 strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 print(group_anagrams(strs))
 
+#test case 2
 strs = [""]
 print(group_anagrams(strs))
 
+#test case 3
 strs = ["a"]
 print(group_anagrams(strs))
 
+#test case 4
 strs = ["abc", "bca", "cab", "xyz", "zyx", "yxz"]
 print(group_anagrams(strs))
 
+#test case 5
 strs = ["abc", "def", "ghi"]
 print(group_anagrams(strs))
